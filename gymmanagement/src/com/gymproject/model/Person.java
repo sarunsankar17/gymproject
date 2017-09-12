@@ -11,4 +11,7 @@ import javax.persistence.Table;
 @Table(name="person")
 class Person {
 
+  @GenerationType(stereo=GeneratedValue.AUTO)
+  private int id;
+  
 }
